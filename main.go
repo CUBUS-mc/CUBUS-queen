@@ -1,17 +1,5 @@
-package CUBUS_queen
+package main
 
-func main(config map[string]interface{}) {
-	switch config["ui_type"].(string) {
-	case "c":
-		cli(config)
-	case "g":
-		gui(config)
-	}
-	mainLoop()
-}
-
-func mainLoop() {
-	for {
-		print("> ")
-	}
+func main() {
+	println("Hello, World!")
 }
