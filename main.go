@@ -1,5 +1,9 @@
 package main
 
 func main() {
-	println("Hello, World!")
+	println("Initializing CUBUS-queen...")
+}
+
+func Start() {
+	println("Starting CUBUS-queen...")
 }
